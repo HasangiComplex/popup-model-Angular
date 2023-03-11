@@ -1,0 +1,35 @@
+.modal-header{
+  background-color: blue;
+  color:white;
+}
+
+.btn-close{
+  color: white;
+
+}
+.form-check-input{
+  margin-left:100px;
+  margin-right:3px;
+  margin-top:0px
+}
+.modal-footer{
+  background-color: lightblue;
+}
+.card{
+
+  display:flex;
+  flex-direction: row;
+
+  margin:8px;
+
+  background-color: #fff;
+  text-align: left;
+  border-radius: 0px;
+
+}
+.row{
+
+}
+.form-check{
+  margin-left:0px;
+}
