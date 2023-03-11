@@ -1,0 +1,24 @@
+{
+  "attributes": [
+    {
+      "id": 1,
+      "name": "city",
+      "salary": "10000"
+    },
+    {
+      "name": "Email",
+      "salary": "5000",
+      "id": 2
+    },
+    {
+      "name": "Gender",
+      "salary": "5000",
+      "id": 2
+    },
+    {
+      "name": "Registration No",
+      "salary": "5000",
+      "id": 2
+    }
+  ]
+}
