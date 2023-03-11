@@ -11,13 +11,8 @@
       "id": 2
     },
     {
-      "name": "Gender",
-      "salary": "5000",
-      "id": 2
-    },
-    {
-      "name": "Registration No",
-      "salary": "5000",
+      "name": "Address",
+      "salary": "1000",
       "id": 2
     }
   ]

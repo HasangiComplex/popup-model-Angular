@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import {ApiService} from "../service/api.service";
 
 @Component({
-  selector: 'app-popup-modal',
-  templateUrl: './popup-modal.component.html',
-  styleUrls: ['./popup-modal.component.css']
+  selector: 'app-cards',
+  templateUrl: './cards.component.html',
+  styleUrls: ['./cards.component.css']
 })
-export class PopupModalComponent {
-
+export class CardsComponent {
   public attributesList : any ;
   constructor(private api : ApiService){}
 
@@ -18,7 +17,4 @@ export class PopupModalComponent {
       })
 
   }
-
-
-
 }
