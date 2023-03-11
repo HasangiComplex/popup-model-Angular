@@ -24,12 +24,22 @@
 
   background-color: #fff;
   text-align: left;
-  border-radius: 0px;
+  border-radius: 5px;
 
 }
-.row{
-
+.card-view{
+margin-right:3px;
 }
 .form-check{
   margin-left:0px;
+}
+.modal fade{
+  width: 800px;
+}
+.form-control{
+  width: 280px;
+  margin-top:30px;
+}
+.body-content{
+  margin-left: 10px;
 }

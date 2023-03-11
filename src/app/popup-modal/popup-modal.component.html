@@ -8,15 +8,21 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" >
-  <div class="modal-dialog" >
+  <div class="modal-dialog modal-lg" >
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Use Existing Attributes</h1>
-        <br/><br/>
-        <P>Select from the pool of existing attributes. Click on an attribute to view its details.</P>
-        <button type="button" class="btn-close" disabled aria-label="Close"></button>
-      </div>
+        <div>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Use Existing Attributes</h1>
 
+        </div>
+        <br/>
+        <div>
+          <P>Select from the pool of existing attributes. Click on an attribute to view its details.</P>
+        </div>
+        <button type="button" class="btn-close" disabled aria-label="Close"></button>
+
+      </div>
+<div class="body-content">
         <nav class="navbar " >
           <div class="container-fluid">
             <form class="d-flex" role="search">
@@ -28,7 +34,7 @@
         </nav>
 
 
-        <div class="row">
+        <div class="row"  id="card-view">
           <ng-container *ngFor="let item of attributesList">
           <div class="col-sm-6 mb-3 mb-sm-0">
 
@@ -50,6 +56,8 @@
 
 
       </div>
+
+    </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CANCEL</button>
         <button type="button" class="btn btn-primary">ADD SELECTED FIELDS</button>
