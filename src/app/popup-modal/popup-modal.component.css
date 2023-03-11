@@ -1,0 +1,17 @@
+.modal-header{
+  background-color: blue;
+  color:white;
+}
+.modal fade{
+  width:100px;
+}
+.btn-close{
+  color: white;
+}
+.form-check-input{
+  margin-left:230px;
+  margin-right:5px;
+}
+.modal-footer{
+  background-color: lightblue;
+}
