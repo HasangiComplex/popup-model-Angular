@@ -2,15 +2,14 @@
 <app-search  (searchTextChanged)="onSearchTextEntered($event)"></app-search>
 
 
-<div class="container overflow-hidden text-center" >
+<div class="container overflow-hidden text-left" >
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
 
     <ng-container *ngFor="let item of attributesList">
       <div class="attribute-container" *ngIf="searchText === '' || item.name.toLowerCase().includes(searchText) ">
 
 
-<!--      <div class="col">-->
-        <!--        <div class="p-3">{{item.name}}</div>-->
+
 
         <div class="card" >
           <div class="card-body">
