@@ -15,31 +15,14 @@
 .modal-footer{
   background-color: lightblue;
 }
-.card{
 
-  display:flex;
-  flex-direction: row;
 
-  margin:8px;
 
-  background-color: #fff;
-  text-align: left;
-  border-radius: 5px;
-
-}
-.card-view{
-margin-right:3px;
-}
-.form-check{
-  margin-left:0px;
-}
-.modal fade{
-  width: 800px;
-}
 .form-control{
   width: 280px;
   margin-top:30px;
 }
 .body-content{
   margin-bottom: 180px;
+
 }
