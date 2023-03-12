@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Output} from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {ApiService} from "../service/api.service";
 
 
@@ -7,7 +7,7 @@ import {ApiService} from "../service/api.service";
   templateUrl: './popup-modal.component.html',
   styleUrls: ['./popup-modal.component.css']
 })
-export class PopupModalComponent {
+export class PopupModalComponent implements OnInit{
 
   public attributesList : any ;
   constructor(private api : ApiService){}
