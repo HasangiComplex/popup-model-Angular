@@ -11,7 +11,12 @@
       "id": 2
     },
     {
-      "name": "Address",
+      "name": "Gender",
+      "salary": "1000",
+      "id": 2
+    },
+    {
+      "name": "Registration ",
       "salary": "1000",
       "id": 2
     }
