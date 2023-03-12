@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {ApiService} from "../service/api.service";
+
 
 @Component({
   selector: 'app-popup-modal',
@@ -18,6 +19,11 @@ export class PopupModalComponent {
       })
 
   }
+  // searchText: string = '';
+  // onSearchTextEntered(searchValue: string){
+  //   this.searchText = searchValue;
+  //    //console.log(this.searchText);
+  // }
 
 
 

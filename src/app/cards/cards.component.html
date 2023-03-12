@@ -1,10 +1,18 @@
-<div class="container overflow-hidden text-center">
+
+<app-search  (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+
+
+<div class="container overflow-hidden text-center" >
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+
     <ng-container *ngFor="let item of attributesList">
-      <div class="col">
+      <div class="attribute-container" *ngIf="searchText === '' || item.name.toLowerCase().includes(searchText) ">
+
+
+<!--      <div class="col">-->
         <!--        <div class="p-3">{{item.name}}</div>-->
 
-        <div class="card">
+        <div class="card" >
           <div class="card-body">
             <p class="card-title">{{item.name}}</p>
             <p class="card-text">{{item.salary}}</p>
@@ -12,9 +20,9 @@
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
           </div>
         </div>
+<!--      </div>-->
+
       </div>
-
-
     </ng-container>
 
   </div>

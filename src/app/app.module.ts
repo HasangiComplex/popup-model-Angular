@@ -6,6 +6,7 @@ import { PopupModalComponent } from './popup-modal/popup-modal.component';
 import {HttpClientModule} from "@angular/common/http";
 import { CardsComponent } from './cards/cards.component';
 import { SearchComponent } from './search/search.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SearchComponent } from './search/search.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
