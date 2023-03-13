@@ -11,10 +11,21 @@ export class CardsComponent {
   constructor(private api : ApiService){}
 
   ngOnInit():void {
-    this.api.getProduct()
+    this.api.getAttributes()
       .subscribe(res=>{
         this.attributesList = res;
       })
 
   }
+
+  searchText: string = '';
+
+  onSearchTextEntered(searchValue: string){
+    this.searchText =  searchValue;
+    console.log(this.searchText);
+
+  }
+
+
+
 }
