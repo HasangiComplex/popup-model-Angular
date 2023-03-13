@@ -9,22 +9,23 @@ import {ApiService} from "../service/api.service";
 })
 export class PopupModalComponent implements OnInit{
 
-  public attributesList : any ;
-  constructor(private api : ApiService){}
-
-  ngOnInit():void {
-    this.api.getProduct()
-      .subscribe(res=>{
-        this.attributesList = res;
-      })
-
-  }
-  // searchText: string = '';
-  // onSearchTextEntered(searchValue: string){
-  //   this.searchText = searchValue;
-  //    //console.log(this.searchText);
+  // public attributesList : any ;
+  // constructor(private api : ApiService){}
+  //
+  // ngOnInit():void {
+  //   this.api.getAttributes()
+  //     .subscribe(res=>{
+  //       this.attributesList = res;
+  //     })
+  //
   // }
 
 
+
+  constructor(){}
+  //
+ ngOnInit():void {
+
+  }
 
 }

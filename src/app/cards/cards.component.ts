@@ -11,7 +11,7 @@ export class CardsComponent {
   constructor(private api : ApiService){}
 
   ngOnInit():void {
-    this.api.getProduct()
+    this.api.getAttributes()
       .subscribe(res=>{
         this.attributesList = res;
       })

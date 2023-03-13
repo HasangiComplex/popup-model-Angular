@@ -1,8 +1,11 @@
 <nav class="navbar " >
   <div class="container-fluid">
     <form class="d-flex" role="search">
+
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="enteredSearchValue"  [ngModelOptions]="{standalone: true}"(input)="onSearchTextChanged()" >
-      <!--              (input)="searchAttributes(searchInput.value)" #searchInput-->
+
+      <button type="submit"> <i class="fa-solid fa-magnifying-glass-arrow-right"></i></button>
+
 
     </form>
   </div>
